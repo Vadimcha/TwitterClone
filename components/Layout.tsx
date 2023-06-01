@@ -20,8 +20,8 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
                     ">
                         {children}
                     </div>
+                    <FollowBar />
                 </div>
-                <FollowBar />
             </div>
         </div>
     );
